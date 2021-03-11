@@ -25,7 +25,8 @@ scissors = '''
 ---.__(___)
 '''
 import random
-
+print("Welcome to the game of Rock, Paper, Scissors.")
+print("\n")
 option = int(input("Type 0 for Rock, 1 for Paper or 2 for Scissors: \n "))
 
 while option not in range(0,3):
